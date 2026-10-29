@@ -1,8 +1,8 @@
 <picture>
   <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/terminal-mobile.svg">
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/terminal.svg">
-  <source media="(max-width: 600px)" srcset="assets/terminal-mobile.gif">
-  <img src="assets/terminal.gif" alt="ASCII Brand of Sacrifice from Berserk beside Raza's terminal: student, building with Python, exploring AI and computer vision. Side quests: gaming, hiking, and the gym." width="100%">
+  <source media="(max-width: 600px)" srcset="assets/terminal-mobile-revolve.gif">
+  <img src="assets/terminal-revolve.gif" alt="ASCII Brand of Sacrifice from Berserk beside Raza's terminal: student, building with Python, exploring AI and computer vision. Side quests: gaming, hiking, and the gym." width="100%">
 </picture>
 
 # hey, I'm Raza 👋
@@ -15,17 +15,11 @@ Right now, that means experimenting with language models, teaching a camera to m
 
 ## ~/projects
 
-### 🤖 Tiny decoder language model.
-
-I built this tiny decoder-only chatbot from scratch in PyTorch to learn how tokenization, attention, training, and autoregressive text generation work. it trained on simulated data and works on CPU as its under 500k parameters.
-
-[Take a look at the code →](https://github.com/Razarex-512/Decoder-only-chatbot)
-
 ### 🧠 Do language models treat everyone the same?
 
 I tested **Phi-2, StableLM-3B, and TinyLlama** on 96 chest-pain vignettes, changing demographic details to see how their answers shifted. An academic exploration of model fairness, with code, outputs, and charts you can dig into.
 
-`Python` `PyTorch` `Transformers`
+![Python](assets/badge-python.svg) ![PyTorch](assets/badge-pytorch.svg) ![Transformers](assets/badge-transformers.svg)
 
 [the experiments →](https://github.com/Razarex-512/Razarex-512-Bias-and-fairness-analysis-in-LLMs-for-heart-attack-triage) · [the results →](https://github.com/Razarex-512/Razarex-512-Bias-and-fairness-analysis-in-LLMs-for-heart-attack-triage/tree/main/results)
 
@@ -33,13 +27,23 @@ I tested **Phi-2, StableLM-3B, and TinyLlama** on 96 chest-pain vignettes, chang
 
 Building **monocular visual SLAM**: tracking landmarks, mapping a scene, and finding the way back to places the camera has seen before. There's also a pretrained depth model for visualizing relative distance. Synthetic tests are in; real indoor accuracy is still on the to-do list.
 
-`Python` `OpenCV` `SciPy` `PyTorch`
+![Python](assets/badge-python.svg) ![OpenCV](assets/badge-opencv.svg) ![SciPy](assets/badge-scipy.svg) ![PyTorch](assets/badge-pytorch.svg)
 
 [look around the code →](https://github.com/Razarex-512/SLAM-project)
+
+### 🤖 Tiny decoder language model.
+
+I built a tiny **decoder-only chatbot from scratch in PyTorch** to learn how tokenization, attention, training, and autoregressive text generation work. Trained on a fictional campus FAQ, it runs on CPU with **438,272 parameters**. A learning project with plenty still to improve on unfamiliar questions.
+
+![Python](assets/badge-python.svg) ![PyTorch](assets/badge-pytorch.svg)
+
+[take a look at the code →](https://github.com/Razarex-512/Decoder-only-chatbot)
 
 ### ⚡ Currently tinkering with…
 
 A PyTorch inference benchmark: **CPU vs. GPU**, latency, throughput, and the trade-offs behind running smaller models. Still a work in progress.
+
+![Python](assets/badge-python.svg) ![PyTorch](assets/badge-pytorch.svg)
 
 ## ~/toolbox
 
@@ -60,4 +64,3 @@ I also run **RnP Automations**, where I've built B2B automation and AI tools, in
 ---
 
 Open to **AI/ML and software engineering internships or co-ops**. Building something interesting? [Let's talk.](mailto:syed.syed1@ucalgary.ca)
-
