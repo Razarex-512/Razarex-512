@@ -5,6 +5,7 @@
   <img src="assets/terminal.gif" alt="ASCII Brand of Sacrifice from Berserk beside Raza's terminal: student, building with Python, exploring AI and computer vision. Side quests: gaming, hiking, and the gym." width="100%">
 </picture>
 
+
 # hey, I'm Raza 👋
 
 Student at UCalgary, aspiring AI/ML dev, and someone who likes figuring things out by building them.
