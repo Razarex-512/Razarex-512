@@ -15,6 +15,12 @@ Right now, that means experimenting with language models, teaching a camera to m
 
 ## ~/projects
 
+### 🤖 Tiny decoder language model.
+
+I built this tiny decoder-only chatbot from scratch in PyTorch to learn how tokenization, attention, training, and autoregressive text generation work. it trained on simulated data and works on CPU as its under 500k parameters.
+
+[Take a look at the code →] (https://github.com/Razarex-512/Decoder-only-chatbot)
+
 ### 🧠 Do language models treat everyone the same?
 
 I tested **Phi-2, StableLM-3B, and TinyLlama** on 96 chest-pain vignettes, changing demographic details to see how their answers shifted. An academic exploration of model fairness, with code, outputs, and charts you can dig into.
