@@ -1,6 +1,4 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/terminal-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/terminal.svg">
   <source media="(max-width: 600px)" srcset="assets/terminal-mobile-revolve.gif">
   <img src="assets/terminal-revolve.gif" alt="ASCII Brand of Sacrifice from Berserk beside Raza's terminal: student, building with Python, exploring AI and computer vision. Side quests: gaming, hiking, and the gym." width="100%">
 </picture>
